@@ -2,6 +2,7 @@
 Loss / Objective Functions and Their Gradients
 Supports: cross_entropy, mse
 """
+
 import numpy as np
 from ann.activations import softmax
 
@@ -20,14 +21,8 @@ def cross_entropy_loss(logits: np.ndarray, y_onehot: np.ndarray) -> float:
     return -np.mean(np.sum(y_onehot * np.log(probs), axis=1))
 
 
-def cross_entropy_grad(logits: np.ndarray, y_onehot: np.ndarray) -> np.ndarray:
-    """
-    dL/d(logits) = (softmax(logits) - y) / N
-    Returns:
-        (N, C) gradient array.
-    """
-    N = logits.shape[0]
-    return (softmax(logits) - y_onehot) / N
+def cross_entropy_grad(logits, y_onehot):
+    return softmax(logits) - y_onehot
 
 
 def mse_loss(logits: np.ndarray, y_onehot: np.ndarray) -> float:
@@ -44,7 +39,7 @@ def mse_grad(logits: np.ndarray, y_onehot: np.ndarray) -> np.ndarray:
     """
     N = logits.shape[0]
     probs = softmax(logits)
-    dL_dp = 2.0 * (probs - y_onehot) / N
+    dL_dp = 2.0 * (probs - y_onehot)  # remove / N
     dot = np.sum(dL_dp * probs, axis=1, keepdims=True)
     return probs * (dL_dp - dot)
 

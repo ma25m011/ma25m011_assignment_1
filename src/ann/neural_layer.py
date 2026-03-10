@@ -2,28 +2,25 @@
 Neural Layer Implementation
 Handles weight initialisation, forward pass, and gradient computation.
 """
+
 import numpy as np
 from typing import Optional
 from ann.activations import get_activation
 
 
 class Layer:
-    """
-    Single fully-connected hidden layer.
-
-    After backward() is called the following are available:
-        self.grad_W  –  gradient w.r.t. W  (same shape as W)
-        self.grad_b  –  gradient w.r.t. b  (same shape as b)
-    """
-
-    def __init__(self, in_features: int, out_features: int,
-                 activation: str = "relu", weight_init: str = "xavier"):
+    def __init__(
+        self,
+        in_features: int,
+        out_features: int,
+        activation: str = "relu",
+        weight_init: str = "xavier",
+    ):
         self.in_features = in_features
         self.out_features = out_features
         self.activation_name = activation
 
         self.act_fn, self.act_grad = get_activation(activation)
-
         self.W = self._init_weights(in_features, out_features, weight_init)
         self.b = np.zeros((1, out_features))
 
@@ -52,9 +49,10 @@ class Layer:
 
     def backward(self, delta: np.ndarray) -> np.ndarray:
         assert self._input is not None, "forward() must be called before backward()"
+        N = self._input.shape[0]
         dz = delta * self.act_grad(self._z)
-        self.grad_W = self._input.T @ dz
-        self.grad_b = dz.sum(axis=0, keepdims=True)
+        self.grad_W = self._input.T @ dz / N
+        self.grad_b = dz.sum(axis=0, keepdims=True) / N
         return dz @ self.W.T
 
     def get_params(self):
@@ -65,13 +63,9 @@ class Layer:
 
 
 class OutputLayer:
-    """
-    Linear output layer — returns raw logits.
-    Softmax is applied inside the loss functions, not here.
-    """
-
-    def __init__(self, in_features: int, out_features: int,
-                 weight_init: str = "xavier"):
+    def __init__(
+        self, in_features: int, out_features: int, weight_init: str = "xavier"
+    ):
         self.in_features = in_features
         self.out_features = out_features
 
@@ -88,8 +82,9 @@ class OutputLayer:
 
     def backward(self, delta: np.ndarray) -> np.ndarray:
         assert self._input is not None, "forward() must be called before backward()"
-        self.grad_W = self._input.T @ delta
-        self.grad_b = delta.sum(axis=0, keepdims=True)
+        N = self._input.shape[0]
+        self.grad_W = self._input.T @ delta / N
+        self.grad_b = delta.sum(axis=0, keepdims=True) / N
         return delta @ self.W.T
 
     def get_params(self):
