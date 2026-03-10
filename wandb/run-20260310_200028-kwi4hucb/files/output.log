@@ -1,0 +1,34 @@
+loading fashion_mnist ...
+  train=(54000, 784)  val=(6000, 784)  test=(10000, 784)
+epoch 1/20  loss=0.5393  train_acc=0.8307  val_acc=0.8297  val_f1=0.8205
+  → saved best model  (val_f1=0.8205)
+epoch 2/20  loss=0.3886  train_acc=0.8758  val_acc=0.8727  val_f1=0.8734
+  → saved best model  (val_f1=0.8734)
+epoch 3/20  loss=0.3483  train_acc=0.8748  val_acc=0.8765  val_f1=0.8756
+  → saved best model  (val_f1=0.8756)
+epoch 4/20  loss=0.3286  train_acc=0.8900  val_acc=0.8828  val_f1=0.8823
+  → saved best model  (val_f1=0.8823)
+epoch 5/20  loss=0.3113  train_acc=0.8840  val_acc=0.8753  val_f1=0.8764
+epoch 6/20  loss=0.2986  train_acc=0.8964  val_acc=0.8847  val_f1=0.8825
+  → saved best model  (val_f1=0.8825)
+epoch 7/20  loss=0.2881  train_acc=0.8980  val_acc=0.8832  val_f1=0.8839
+  → saved best model  (val_f1=0.8839)
+epoch 8/20  loss=0.2830  train_acc=0.8965  val_acc=0.8833  val_f1=0.8817
+epoch 9/20  loss=0.2758  train_acc=0.9051  val_acc=0.8858  val_f1=0.8869
+  → saved best model  (val_f1=0.8869)
+epoch 10/20  loss=0.2719  train_acc=0.9091  val_acc=0.8920  val_f1=0.8921
+  → saved best model  (val_f1=0.8921)
+epoch 11/20  loss=0.2673  train_acc=0.9055  val_acc=0.8862  val_f1=0.8853
+epoch 12/20  loss=0.2630  train_acc=0.9148  val_acc=0.8972  val_f1=0.8968
+  → saved best model  (val_f1=0.8968)
+epoch 13/20  loss=0.2626  train_acc=0.9003  val_acc=0.8855  val_f1=0.8839
+epoch 14/20  loss=0.2544  train_acc=0.9181  val_acc=0.8945  val_f1=0.8945
+epoch 15/20  loss=0.2567  train_acc=0.9142  val_acc=0.8890  val_f1=0.8873
+epoch 16/20  loss=0.2555  train_acc=0.9113  val_acc=0.8938  val_f1=0.8922
+epoch 17/20  loss=0.2524  train_acc=0.9209  val_acc=0.8928  val_f1=0.8925
+epoch 18/20  loss=0.2506  train_acc=0.9103  val_acc=0.8872  val_f1=0.8867
+epoch 19/20  loss=0.2474  train_acc=0.9194  val_acc=0.8928  val_f1=0.8920
+epoch 20/20  loss=0.2442  train_acc=0.9216  val_acc=0.8963  val_f1=0.8952
+
+evaluating best model on test set ...
+test  acc=0.8806  precision=0.8812  recall=0.8806  f1=0.8804

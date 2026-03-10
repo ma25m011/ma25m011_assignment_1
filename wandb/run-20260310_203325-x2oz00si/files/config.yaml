@@ -1,0 +1,80 @@
+_wandb:
+    value:
+        cli_version: 0.25.0
+        e:
+            lv36s56c2t6u1a8lkf53sr6o70ixcgw1:
+                args:
+                    - --wandb_project
+                    - assignment_1
+                    - --count
+                    - "100"
+                codePath: notebooks\sweep.py
+                codePathLocal: notebooks\sweep.py
+                cpu_count: 6
+                cpu_count_logical: 12
+                cudaVersion: "13.2"
+                disk:
+                    /:
+                        total: "1000186310656"
+                        used: "810981695488"
+                email: ma25m011@smail.iitm.ac.in
+                executable: C:\Users\Rickotte\AppData\Local\Programs\Python\Python313\python.exe
+                gpu: NVIDIA GeForce RTX 4060 Ti
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ada
+                      cudaCores: 4352
+                      memoryTotal: "17175674880"
+                      name: NVIDIA GeForce RTX 4060 Ti
+                      uuid: GPU-3ca8a477-e41d-a640-a258-7723914bcef3
+                host: Rickotte
+                memory:
+                    total: "33409622016"
+                os: Windows-11-10.0.26200-SP0
+                program: E:\Books\Sem 2\Deep learning\ma25m011_assignment1\notebooks\sweep.py
+                python: CPython 3.13.7
+                root: E:\Books\Sem 2\Deep learning\ma25m011_assignment1
+                startedAt: "2026-03-10T15:03:25.591978Z"
+                writerId: lv36s56c2t6u1a8lkf53sr6o70ixcgw1
+        m: []
+        python_version: 3.13.7
+        t:
+            "1":
+                - 2
+                - 3
+                - 5
+                - 53
+            "2":
+                - 2
+                - 3
+                - 5
+                - 53
+            "3":
+                - 2
+                - 14
+            "4": 3.13.7
+            "5": 0.25.0
+            "8":
+                - 3
+            "12": 0.25.0
+            "13": windows-amd64
+activation:
+    value: tanh
+batch_size:
+    value: 32
+epochs:
+    value: 10
+hidden_size:
+    value: 32
+learning_rate:
+    value: 0.01
+loss:
+    value: mse
+num_layers:
+    value: 4
+optimizer:
+    value: rmsprop
+weight_decay:
+    value: 0
+weight_init:
+    value: xavier

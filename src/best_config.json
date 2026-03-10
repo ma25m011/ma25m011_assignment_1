@@ -1,0 +1,19 @@
+{
+  "dataset": "fashion_mnist",
+  "input_size": 784,
+  "hidden_sizes": [
+    128,
+    128,
+    64
+  ],
+  "output_size": 10,
+  "activation": "relu",
+  "weight_init": "xavier",
+  "optimizer": "rmsprop",
+  "learning_rate": 0.001,
+  "weight_decay": 0.0,
+  "loss": "cross_entropy",
+  "batch_size": 64,
+  "epochs": 20,
+  "best_val_f1": 0.8968411290479207
+}

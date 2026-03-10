@@ -1,0 +1,12 @@
+{"time":"2026-03-10T21:00:19.494327+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-10T21:00:19.885404+05:30","level":"INFO","msg":"stream: created new stream","id":"toy6mils"}
+{"time":"2026-03-10T21:00:19.8859274+05:30","level":"INFO","msg":"handler: started","stream_id":"toy6mils"}
+{"time":"2026-03-10T21:00:19.8864497+05:30","level":"INFO","msg":"stream: started","id":"toy6mils"}
+{"time":"2026-03-10T21:00:19.8864497+05:30","level":"INFO","msg":"writer: started","stream_id":"toy6mils"}
+{"time":"2026-03-10T21:00:19.8864497+05:30","level":"INFO","msg":"sender: started","stream_id":"toy6mils"}
+{"time":"2026-03-10T21:00:33.6017845+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-10T21:00:34.4631748+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-03-10T21:00:34.4664105+05:30","level":"INFO","msg":"stream: closing","id":"toy6mils"}
+{"time":"2026-03-10T21:00:34.4664105+05:30","level":"INFO","msg":"handler: closed","stream_id":"toy6mils"}
+{"time":"2026-03-10T21:00:34.4664105+05:30","level":"INFO","msg":"sender: closed","stream_id":"toy6mils"}
+{"time":"2026-03-10T21:00:34.4664105+05:30","level":"INFO","msg":"stream: closed","id":"toy6mils"}

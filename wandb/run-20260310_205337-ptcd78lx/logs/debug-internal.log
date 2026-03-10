@@ -1,0 +1,12 @@
+{"time":"2026-03-10T20:53:39.9627307+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-10T20:53:40.359364+05:30","level":"INFO","msg":"stream: created new stream","id":"ptcd78lx"}
+{"time":"2026-03-10T20:53:40.359364+05:30","level":"INFO","msg":"handler: started","stream_id":"ptcd78lx"}
+{"time":"2026-03-10T20:53:40.3612033+05:30","level":"INFO","msg":"stream: started","id":"ptcd78lx"}
+{"time":"2026-03-10T20:53:40.3612033+05:30","level":"INFO","msg":"sender: started","stream_id":"ptcd78lx"}
+{"time":"2026-03-10T20:53:40.3612033+05:30","level":"INFO","msg":"writer: started","stream_id":"ptcd78lx"}
+{"time":"2026-03-10T20:53:52.2455393+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-10T20:53:53.1856965+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-03-10T20:53:53.1888193+05:30","level":"INFO","msg":"stream: closing","id":"ptcd78lx"}
+{"time":"2026-03-10T20:53:53.1888193+05:30","level":"INFO","msg":"handler: closed","stream_id":"ptcd78lx"}
+{"time":"2026-03-10T20:53:53.1888193+05:30","level":"INFO","msg":"sender: closed","stream_id":"ptcd78lx"}
+{"time":"2026-03-10T20:53:53.1888193+05:30","level":"INFO","msg":"stream: closed","id":"ptcd78lx"}

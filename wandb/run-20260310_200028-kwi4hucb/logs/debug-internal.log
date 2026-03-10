@@ -1,0 +1,12 @@
+{"time":"2026-03-10T20:00:31.1315218+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-10T20:00:31.6731782+05:30","level":"INFO","msg":"stream: created new stream","id":"kwi4hucb"}
+{"time":"2026-03-10T20:00:31.6736945+05:30","level":"INFO","msg":"handler: started","stream_id":"kwi4hucb"}
+{"time":"2026-03-10T20:00:31.6783892+05:30","level":"INFO","msg":"stream: started","id":"kwi4hucb"}
+{"time":"2026-03-10T20:00:31.6783892+05:30","level":"INFO","msg":"sender: started","stream_id":"kwi4hucb"}
+{"time":"2026-03-10T20:00:31.6783892+05:30","level":"INFO","msg":"writer: started","stream_id":"kwi4hucb"}
+{"time":"2026-03-10T20:01:04.9396645+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-10T20:01:12.1669548+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-03-10T20:01:12.1701379+05:30","level":"INFO","msg":"stream: closing","id":"kwi4hucb"}
+{"time":"2026-03-10T20:01:12.1701379+05:30","level":"INFO","msg":"handler: closed","stream_id":"kwi4hucb"}
+{"time":"2026-03-10T20:01:12.1701379+05:30","level":"INFO","msg":"sender: closed","stream_id":"kwi4hucb"}
+{"time":"2026-03-10T20:01:12.1701379+05:30","level":"INFO","msg":"stream: closed","id":"kwi4hucb"}

@@ -1,0 +1,58 @@
+{
+  "os":  "Windows-11-10.0.26200-SP0",
+  "python":  "CPython 3.13.7",
+  "startedAt":  "2026-03-10T14:30:28.768683Z",
+  "args":  [
+    "--dataset",
+    "fashion_mnist",
+    "--epochs",
+    "20",
+    "--optimizer",
+    "rmsprop",
+    "--learning_rate",
+    "0.001",
+    "--num_layers",
+    "3",
+    "--hidden_size",
+    "128",
+    "128",
+    "64",
+    "--activation",
+    "relu",
+    "--weight_init",
+    "xavier",
+    "--wandb_project",
+    "assignment_1"
+  ],
+  "program":  "E:\\Books\\Sem 2\\Deep learning\\ma25m011_assignment1\\src\\train.py",
+  "codePath":  "src\\train.py",
+  "codePathLocal":  "src\\train.py",
+  "email":  "ma25m011@smail.iitm.ac.in",
+  "root":  "E:\\Books\\Sem 2\\Deep learning\\ma25m011_assignment1",
+  "host":  "Rickotte",
+  "executable":  "C:\\Users\\Rickotte\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+  "cpu_count":  6,
+  "cpu_count_logical":  12,
+  "gpu":  "NVIDIA GeForce RTX 4060 Ti",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "1000186310656",
+      "used":  "810979483648"
+    }
+  },
+  "memory":  {
+    "total":  "33409622016"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce RTX 4060 Ti",
+      "memoryTotal":  "17175674880",
+      "cudaCores":  4352,
+      "architecture":  "Ada",
+      "uuid":  "GPU-3ca8a477-e41d-a640-a258-7723914bcef3"
+    }
+  ],
+  "cudaVersion":  "13.2",
+  "writerId":  "zug3sraaeqgiffbfc8vt75gp3ks7av80"
+}

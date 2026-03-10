@@ -1,0 +1,12 @@
+{"time":"2026-03-10T20:24:31.5948924+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-10T20:24:32.0190148+05:30","level":"INFO","msg":"stream: created new stream","id":"kvibott7"}
+{"time":"2026-03-10T20:24:32.0190148+05:30","level":"INFO","msg":"handler: started","stream_id":"kvibott7"}
+{"time":"2026-03-10T20:24:32.0201571+05:30","level":"INFO","msg":"stream: started","id":"kvibott7"}
+{"time":"2026-03-10T20:24:32.0201571+05:30","level":"INFO","msg":"sender: started","stream_id":"kvibott7"}
+{"time":"2026-03-10T20:24:32.0201571+05:30","level":"INFO","msg":"writer: started","stream_id":"kvibott7"}
+{"time":"2026-03-10T20:24:44.088443+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-10T20:24:44.5372005+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-03-10T20:24:44.5401502+05:30","level":"INFO","msg":"stream: closing","id":"kvibott7"}
+{"time":"2026-03-10T20:24:44.5401502+05:30","level":"INFO","msg":"handler: closed","stream_id":"kvibott7"}
+{"time":"2026-03-10T20:24:44.5401502+05:30","level":"INFO","msg":"sender: closed","stream_id":"kvibott7"}
+{"time":"2026-03-10T20:24:44.5401502+05:30","level":"INFO","msg":"stream: closed","id":"kvibott7"}

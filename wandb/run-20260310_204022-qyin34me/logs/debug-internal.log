@@ -1,0 +1,12 @@
+{"time":"2026-03-10T20:40:24.923424+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-10T20:40:25.3197987+05:30","level":"INFO","msg":"stream: created new stream","id":"qyin34me"}
+{"time":"2026-03-10T20:40:25.3197987+05:30","level":"INFO","msg":"handler: started","stream_id":"qyin34me"}
+{"time":"2026-03-10T20:40:25.3208287+05:30","level":"INFO","msg":"stream: started","id":"qyin34me"}
+{"time":"2026-03-10T20:40:25.3208287+05:30","level":"INFO","msg":"writer: started","stream_id":"qyin34me"}
+{"time":"2026-03-10T20:40:25.3208287+05:30","level":"INFO","msg":"sender: started","stream_id":"qyin34me"}
+{"time":"2026-03-10T20:40:43.6123896+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-10T20:40:44.0921502+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-03-10T20:40:44.0947547+05:30","level":"INFO","msg":"stream: closing","id":"qyin34me"}
+{"time":"2026-03-10T20:40:44.0947547+05:30","level":"INFO","msg":"handler: closed","stream_id":"qyin34me"}
+{"time":"2026-03-10T20:40:44.0952715+05:30","level":"INFO","msg":"sender: closed","stream_id":"qyin34me"}
+{"time":"2026-03-10T20:40:44.0952715+05:30","level":"INFO","msg":"stream: closed","id":"qyin34me"}

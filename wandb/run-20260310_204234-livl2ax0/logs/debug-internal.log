@@ -1,0 +1,12 @@
+{"time":"2026-03-10T20:42:37.1502618+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-10T20:42:37.5409336+05:30","level":"INFO","msg":"stream: created new stream","id":"livl2ax0"}
+{"time":"2026-03-10T20:42:37.5409336+05:30","level":"INFO","msg":"handler: started","stream_id":"livl2ax0"}
+{"time":"2026-03-10T20:42:37.5414504+05:30","level":"INFO","msg":"stream: started","id":"livl2ax0"}
+{"time":"2026-03-10T20:42:37.5414504+05:30","level":"INFO","msg":"sender: started","stream_id":"livl2ax0"}
+{"time":"2026-03-10T20:42:37.5414504+05:30","level":"INFO","msg":"writer: started","stream_id":"livl2ax0"}
+{"time":"2026-03-10T20:42:47.3091524+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-10T20:42:52.3012282+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-03-10T20:42:52.3041078+05:30","level":"INFO","msg":"stream: closing","id":"livl2ax0"}
+{"time":"2026-03-10T20:42:52.3041078+05:30","level":"INFO","msg":"handler: closed","stream_id":"livl2ax0"}
+{"time":"2026-03-10T20:42:52.3041078+05:30","level":"INFO","msg":"sender: closed","stream_id":"livl2ax0"}
+{"time":"2026-03-10T20:42:52.3041078+05:30","level":"INFO","msg":"stream: closed","id":"livl2ax0"}
