@@ -51,7 +51,7 @@ class MLP:
         for layer in reversed(self.layers):
             delta = layer.backward(delta)
             grads.append(layer.get_grads())
-        return grads[0]["grad_W"], grads[0]["grad_b"]
+        return grads
 
     def get_params(self) -> List[dict]:
         return [layer.get_params() for layer in self.layers]
@@ -98,16 +98,6 @@ class NeuralNetwork(MLP):
 
     def forward(self, X: np.ndarray):
         return MLP.forward(self, X)
-
-    def backward(self, loss_grad_or_X, loss_grad=None):
-        if loss_grad is None:
-            loss_grad = loss_grad_or_X
-        delta = loss_grad
-        grads = []
-        for layer in reversed(self.layers):
-            delta = layer.backward(delta)
-            grads.append(layer.get_grads())
-        return grads[0]["grad_W"], grads[0]["grad_b"]
 
     def predict(self, X: np.ndarray) -> np.ndarray:
         logits = MLP.forward(self, X)
