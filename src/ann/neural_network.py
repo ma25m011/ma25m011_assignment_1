@@ -99,6 +99,14 @@ class NeuralNetwork(MLP):
     def forward(self, X: np.ndarray):
         return MLP.forward(self, X)
 
+    def backward(self, loss_grad_or_X, loss_grad=None):
+        if loss_grad is None:
+            loss_grad = loss_grad_or_X
+        grads = MLP.backward(self, loss_grad)
+        all_grad_W = [g["grad_W"] for g in grads]
+        all_grad_b = [g["grad_b"] for g in grads]
+        return all_grad_W, all_grad_b
+
     def predict(self, X: np.ndarray) -> np.ndarray:
         logits = MLP.forward(self, X)
         return np.argmax(logits, axis=1)
